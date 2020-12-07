@@ -1,16 +1,24 @@
 body{
-    background-color: rgb(219, 162, 236);
+    background-color: rgb(255, 255, 255);
 }
 
 
 #ESPACIO1{
-    background-color: rgb(145, 96, 223);
+    background-color: rgb(241, 153, 153);
 }
 
 #Cientificos{
-    background-color: rgb(162, 236, 132);
+    background-color: rgb(230, 99, 99);
 }
 
 #Animales{
-    background-color: rgb(235, 222, 109);
+    background-color: rgb(173, 42, 42);
+}
+
+#TITULO{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#BOTONERA{
+    background-color: rgb(255, 255, 255);
 }
