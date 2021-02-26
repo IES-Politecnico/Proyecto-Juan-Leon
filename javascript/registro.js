@@ -1,8 +1,8 @@
 function registro() {
     document.getElementById("login").className = "oculto";
     document.getElementById("sign in").className = "visible";
-    document.getElementById("Cambiar_a_ingreso").className = "visible";
-    document.getElementById("cambiar_a_registro").className = "oculto";
+    document.getElementById("ingreso").className = "visible";
+    document.getElementById("registro").className = "oculto";
 }
 
 function verificacion() {
