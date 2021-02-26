@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Este es un blog de noricias cientifícas para que estes al tanto de todos los avances">
+    <meta name="googlebot" content="noindex" />
+    <meta name="author" content="juansalvadorleon11@gmail.com">
+    <meta name="keywords" content="ciencia, CIENCIA, noticias, infociencia, tecnologia, avances,">
+    <title>Noticias Infociencia</title>
+    <link rel="shorcut icon" href="../icons/noticias.png">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <style>
+        .oculto {
+            display: none;
+        }
+
+        .visible {
+            display: inline;
+        }
+    </style>
+    <script src="../javascript/ingreso.js" type="text/javascript"></script>
+    <script src="../javascript/registro.js" type="text/javascript"></script>
+</head>
+
+<body style="background-color: rgb(255, 255, 255)">
+    <form action="login" method="GET" id="login">
+        <fieldset>
+            <legend>Ingreso</legend>
+            <p>Nombre de usuario:<input type="text" name="usuario" size="50" required></p>
+            <p>Contraseña:<input type="password" name="Contraseña" size="50" required></p>
+            <a href="bienvenido.html">
+                <p><input type="button" value="login" action="#"></p>
+            </a>
+        </fieldset>
+    </form>
+    <form action="" method="GET" id="sign in" class="oculto">
+
+        <fieldset>
+            <legend>Registro</legend>
+            <p>Nombre de usuario: <input type="text" name="Nombre de usuario"minlength="6" required></p>
+            <p>Contraseña:<input type="password" id="password" name="contraseña" minlength="8" required>
+                <span id="result" style="color: rgb(103, 224, 103);"></span><span id="result2" style="color: red;">
+            </p>
+            <p>Repetir la contraseña:<input type="password" id="repassword" name="contraseña2" minlength="8" required>
+            </p>
+            <p>Dirección de correo: <input type="email" name="email"> </p>
+            <p>Número de teléfono: <input type="tel" name="telefono"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+            <p>
+                <input type="button" value="enviar" action="#" onclick="verificacion()">
+                <input type="reset" name="borrar" value="reset">
+            </p>
+        </fieldset>
+
+
+    </form>
+    <p><input type="button" value="Ingreso" id="Cambiar_a_ingreso" class="oculto" onclick="login()"></p>
+    <p><input type="button" value="Registro" id="cambiar_a_registro" class="visible" onclick="registro()"></p>
+
+</body>
+
+</html>
